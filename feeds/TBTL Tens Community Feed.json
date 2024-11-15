@@ -1,0 +1,30 @@
+{
+    "displayName": "TBTL Tens Community Feed",
+    "blocks": [
+        {
+            "id": "aaadb5jmng3ae",
+            "type": "input",
+            "inputType": "list",
+            "listUri": "at://did:plc:zz27ueqtx4v7pm5gjavvg4hx/app.bsky.graph.list/3layv55oufb2y"
+        },
+        {
+            "id": "aaadb5jmnecz6",
+            "type": "remove",
+            "subject": "item",
+            "value": "reply"
+        },
+        {
+            "id": "aaadb5jmngkps",
+            "type": "regex",
+            "value": ".*",
+            "caseSensitive": false
+        },
+        {
+            "id": "aaadb5jmngbpm",
+            "type": "sort",
+            "sortType": "created_at"
+        }
+    ],
+    "license": "MIT"
+}
+
